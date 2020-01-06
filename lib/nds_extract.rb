@@ -20,7 +20,7 @@ end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-def gross_for_director(director_data)
+def gross_for_director(director_movies)
   counter = 0 
   total_gross = 0 
   movie = director_movies[:movies] 
