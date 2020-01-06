@@ -19,7 +19,7 @@ def directors_totals(nds)
   result[row_index] << total_director
   row_index += 1
   end
-  return result
+ # return result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
