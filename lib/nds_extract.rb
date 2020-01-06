@@ -9,12 +9,10 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-  row_index = 0
-  total_director = 0
-  while row_index < nds.count do 
+  director_index = 0
+  while director_index < nds.count do 
     result[row_index] << directors_database[:name]
-      while column_index < nds[row_index].count do 
-      total_director += directors_database[:movies][row_index][:worldwide_grosses]
+      
       end 
   result[row_index] << total_director
   row_index += 1
